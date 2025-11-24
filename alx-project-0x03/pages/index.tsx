@@ -1,6 +1,6 @@
 import Layout from '@/components/layouts/Layout'
 
-export default function Home() {
+const Home = () => {
   return (
     <Layout>
       <div className="pt-24 min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -18,3 +18,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default Home
